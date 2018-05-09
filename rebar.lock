@@ -1,8 +1,10 @@
 {"1.1.0",
-[{<<"rocksdb">>,{pkg,<<"rocksdb">>,<<"0.18.0">>},0},
+[{<<"rocksdb">>,
+  {git,"https://gitlab.com/barrel-db/erlang-rocksdb.git",
+       {ref,"aaa3455f371d4255be7db76f2818ea04053cd07a"}},
+  0},
  {<<"sext">>,{pkg,<<"sext">>,<<"1.4.1">>},0}]}.
 [
 {pkg_hash,[
- {<<"rocksdb">>, <<"B2AAB04BB884DB0C2244B30274058DB2DBFA8D1477D1CAA0E2341249C363C501">>},
  {<<"sext">>, <<"14559B219FAF11F9EBA7A350DFFC69C966C668439C54947A42D67167002798C4">>}]}
 ].
